@@ -5,7 +5,6 @@
 - Make sure to include the protocol in the URL or else you'll get an error (Ex: https://google.com)
 
 # Usage
-docker build . --tag fetch
-docker run --volume $(pwd):/app fetch https://google.com
-or
-docker run fetch --metadata https://google.com
+- docker build . --tag fetch
+- docker run --volume $(pwd):/app fetch https://google.com
+- or docker run fetch --metadata https://google.com
